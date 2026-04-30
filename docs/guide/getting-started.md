@@ -68,7 +68,7 @@ API 令牌（Token）是您调用 GQ API 的凭证。
 4. 设置额度限制（可选，留空表示不限制）
 5. 设置过期时间（可选）
 6. 点击"提交"创建令牌
-![ api 令牌创建](/pictures/wallet/wallet-0.png)
+![ api 令牌创建](/pictures/apikey/apikey-0.png)
 
 令牌格式为 sk- 开头的字符串，与 OpenAI API Key 格式兼容。
 
@@ -133,6 +133,7 @@ curl https://api.gqchat.cn/v1/chat/completions \
 ```
 
 如果返回正常的 JSON 响应，说明您的配置已就绪。
+
 
 
 ## 常见问题
