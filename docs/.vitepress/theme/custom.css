@@ -1,0 +1,50 @@
+.VPDocAside .VPDocAsideOutline {
+  position: sticky;
+  top: calc(var(--vp-nav-height) + 16px);
+  max-height: calc(100vh - var(--vp-nav-height) - 32px);
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.VPDocAsideOutline .outline-link {
+  display: block;
+}
+
+.VPDocAsideOutline .outline-title {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+.VPHero .text,
+.VPHero .name {
+  max-width: 680px !important;
+}
+
+.gq-credit {
+  position: fixed !important;
+  right: 16px !important;
+  bottom: 16px !important;
+  z-index: 100 !important;
+  font-size: 12px !important;
+  color: var(--vp-c-text-2) !important;
+  background: var(--vp-c-bg) !important;
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 8px !important;
+  padding: 6px 12px !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.25s ease !important;
+  white-space: nowrap !important;
+  pointer-events: auto !important;
+}
+
+.gq-credit:hover {
+  color: #4f46e5 !important;
+  border-color: #4f46e5 !important;
+  box-shadow: 0 4px 16px rgba(79, 70, 229, 0.15) !important;
+}
+
+.gq-credit a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
