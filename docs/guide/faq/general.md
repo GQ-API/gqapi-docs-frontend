@@ -15,9 +15,9 @@
 登录控制台 → 充值中心 → 选择支付方式完成充值。
 
 支持的支付方式：
-- 支付宝 / 微信支付
-- 信用卡（Visa/Mastercard）
-- 加密货币（USDT）
+- 支付宝 ~~/ 微信支付~~
+- ~~信用卡（Visa/Mastercard）~~ 开发中
+- ~~加密货币（USDT）~~ 开发中
 
 ### Q: 费用如何计算？
 
@@ -25,7 +25,7 @@
 
 > 费用 = 输入 Token × 输入单价 + 输出 Token × 输出单价
 
-不同模型单价不同，详见[定价页面](https://api.gqchat.cn/console/pricing)。
+不同模型单价不同，详见[定价页面](https://api.gqchat.cn/pricing)。
 
 ## API 使用
 

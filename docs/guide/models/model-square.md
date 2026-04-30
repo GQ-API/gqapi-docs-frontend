@@ -53,4 +53,4 @@ GQ API 聚合了全球主流 AI 模型，通过统一接口即可调用。
 
 ## 价格参考
 
-所有模型均按 Token 计费，具体价格请查看控制台的[定价页面](https://api.gqchat.cn/console/pricing)。
+所有模型均按 Token 计费，具体价格请查看控制台的[定价页面](https://api.gqchat.cn/pricing)。
